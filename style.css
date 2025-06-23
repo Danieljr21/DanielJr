@@ -1,17 +1,40 @@
-body
-{ background-color:black;}
-head{background-color:antiquewhite;}
-p{color: white;}
-title{color: white;}
-h1{color: blue;}
-h2{color: black;}
-table{color: white;}
-tr{color: white;}
-td{color: white;}
-th{color: white;}
-a{color: blueviolet;}
-h3{color: white;}
-h4{color: white;}
-body{color: white;}
-input{color:black; background-color: white;}
-reset{color: blue; background-color: blue;}
+body{
+   background-image: url(imagesb.jpg) ;
+}
+.navbar{
+   display: inline;
+   background-color: rgba(106, 106, 106, 0.5);
+   box-shadow: 4px 4px 5px #888888;
+}
+.center{ 
+   background-color: rgba(106, 106, 106, 0.3);
+   box-shadow: 4px 4px 5px #888888;
+   text-align: center;
+}
+a{
+   background-color: rgba(106, 106, 106, 0.5);
+   color: black;
+   
+}
+.container{
+   flex-wrap: wrap;
+}
+.reck{
+   font-size: large;
+}
+.one{
+   font-size: large;
+}
+.last{
+   text-align: center;
+}
+img :hover{
+transform: scale(1.1);
+}
+img{
+   transition:all 1s;
+}
+
+
+
+
