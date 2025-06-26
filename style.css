@@ -1,47 +1,54 @@
-body{
-    background-image: url(style1.jpg);
-    background-size: cover;
+.navbar{
+   display: inline-block;
+   list-style: none;
+   border: 0px solid #9C9494;
+   margin: 10px;
+   padding: 5px 10px 5px 10px;
+   background-color: #9C9494 #888888;
+   box-shadow: #888888 3px 5px 5px;
+   transition: all 1s;
+}
+.navbar:hover{
+   transform: scale(1.1);
+}
+h1,h2{ 
+   background-color: rgba(106, 106, 106, 0.3);
+   box-shadow: 4px 4px 5px #888888;
+   text-align: center;
+   border-width: 2px;
+   border-radius: 2px;
+}
+h1:hover{
+   transform: scale(1.1);
 }
 a{
-    color: rg;
+   color: black;}
+.container{
+   flex-wrap: wrap;
 }
-h1{
-    background-color: gold;
-    font-size: 50px;
-    text-decoration: overline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+.reck{
+   font-size: large;
 }
-h2{
-    color: gold;
+.one{
+   font-size: large;
 }
-*{
-    color: rgba(145, 164, 55, 111);
+.last{
+   text-align: center;
+   background-color: white;
+   text-decoration: none;
 }
-h3{
-    font-style: italic;
-    font-weight: 900;
-    font-size: 30px;
+.link{
+   text-decoration: none;
+   transition: all 1s;
+}
+img:hover{
+   transform: scale(1.1);
+}
+table{
+   background-color:rgba(106, 106, 106, 0.4);
 }
 
-h5,p{
-    padding: 10px;
-    line-height: 30px;
-    text-decoration: none;
-    transform: matrix(10px);
-    font-size: 20px;
-    margin:10px;
-    max-width: 5p;
-}
-.btn{
-    background: #f4c542;
-  color:black;
-  padding: 0.8rem 1.2rem;
-  border-radius: 6px;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 1rem;
-}
-.hero{
-    background-color: #f4c542;
-}
+
+
+
+
